@@ -32,7 +32,7 @@ Now after this first drop, we pick the ball up and drop it from another height a
 If we fix the result of the first drop so we know the ball went distance $a$, for the ball to go a total distance $c$, the distance traveled in the second drop is also fixed at $b$, where $a+b=c$. So the probability of this happening is simply $f(a) \cdot g(b)$.[^expl]
 
 [^expl]:
-    We want the probability of the ball rolling $a$ units the first time and also rolling $b$ units the second time. The distributions $P(A) = f(a)$ and $P(b) = g(b)$ are independent, with both distributions centered at 0. So $P(a,b) = P(a) * P(b) = f(a) \cdot g(b)$.
+    We want the probability of the ball rolling $a$ units the first time and also rolling $b$ units the second time. The distributions $P(a) = f(a)$ and $P(b) = g(b)$ are independent, with both distributions centered at 0. So $P(a,b) = P(a) * P(b) = f(a) \cdot g(b)$.
 
 Let's think about this with a specific discrete example. We want the total distance $c$ to be 3. If the first time it rolls, $a=2$, the second time it must roll $b=1$ in order to reach our total distance $a+b=3$. The probability of this is $f(2) \cdot g(1)$. 
 
